@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API basics</title>
+</head>
+<body>
+  <button id="random-joke-button">Get a joke</button>
+
+  <form id="category-form">
+    <div class="form-control">
+      <label for="category-select">Category:</label>
+      <select name="category-select" id="category-select"></select>
+    </div>
+
+    <input type="submit" value="Get a joke by category" id="category-submit">
+  </form>
+
+  <form id="search-form">
+    <div class="form-control">
+      <label for="search-input">Search phrase:</label>
+      <input type="text" name="search-input" id="search-input">
+    </div>
+
+    <input type="submit" value="Search" id="search-submit">
+  </form>
+
+  <p id="joke-paragraph"></p>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
