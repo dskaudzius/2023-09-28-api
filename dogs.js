@@ -1,7 +1,7 @@
 import { firsLetterUppercase, createOptionElement } from './utils.js'
 
 function init() {
-  const dogsForm = document.querySelector('#dogs-form')
+  const dogsForm = document.querySelector('#dogs-form') 
   const breedSelect = dogsForm['breed-select']
 
   fetch('https://dog.ceo/api/breeds/list/all')
